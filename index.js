@@ -7,11 +7,11 @@ function createSongElement(song) {
     title.textContent = song.Title;
 
     // Features
-    const features = document.createElement("h2");
+    const features = document.createElement("h3");
     features.textContent = `Featuring ${song.Features}`;
 
     // Producers
-    const producers = document.createElement("h3");
+    const producers = document.createElement("p");
     producers.textContent = `Produced by ${song.Producers}`;
 
     // Image
