@@ -20,12 +20,12 @@
 
 body {
     background-image: url("9f0e91ba-6d76-47e6-a20b-9242f4c52609.gif");
-    /* background-repeat: no-repeat; */
-    /* background-size: ; */
+    background-repeat: no-repeat;
+    background-size: cover; /* or specify dimensions */
+    background-attachment: fixed;
     font-family: "GabesFont";
     color: darkturquoise;
-    text-shadow:2px 2px magenta;
-    /* text-shadow:2px 2px black; */
+    text-shadow: 2px 2px magenta;
 }
 
 .mp3 {
