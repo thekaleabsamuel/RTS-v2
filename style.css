@@ -18,6 +18,14 @@
     gap: 20px;
 }
 
+
+
+audio {
+    width: 100%; /* Make the audio element fill its container */
+    outline: none; /* Remove default outline */
+    margin top: 50px;
+}
+
 body {
     background-image: url("9f0e91ba-6d76-47e6-a20b-9242f4c52609.gif");
     background-repeat: no-repeat;
@@ -28,9 +36,7 @@ body {
     text-shadow: 2px 2px magenta;
 }
 
-.mp3 {
-    
-}
+
 
 .image-container img {
     width: 200px;
